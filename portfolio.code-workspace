@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSaveDelay": 0,
+		"editor.fontSize": 16,
+		"editor.tabSize": 2,
+		"editor.wordWrap": "on",
+		"editor.autoIndent": "advanced",
+		"editor.codeActionsOnSave": { "source.fixAll": true }
+	}
+}

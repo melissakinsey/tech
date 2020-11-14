@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<!--BEGIN HEAD-->
+	<head>
+		<title>Contact</title>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Portfolio of work created during the Columbia University Coding Boot Camp, October 2020 to April 2021."
+		/>
+		<meta
+			name="keywords"
+			content="portfolio, coding-boot-camp, technical-writing, programming, engineering"
+		/>
+		<meta name="author" content="Melissa Kinsey" />
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href="piggy-bank-favicon.png"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<!--BEGIN STYLE-->
+	<style>
+		html {
+			position: relative;
+			min-height: 100%;
+		}
+		* {
+			box-sizing: border-box;
+		}
+		.container-1 {
+			margin-bottom: 0;
+			border-radius: 0;
+		}
+		ul {
+			background-color: #fc9898;
+		}
+		li {
+			font-family: "Red Rose", cursive;
+			float: left;
+			margin: 10 px;
+			padding-left: 100px;
+			font-size: 28px;
+			color: white;
+			list-style: none;
+			background-color: #fc9898;
+		}
+		a.nav-link-active {
+			color: white;
+		}
+		input[type="text"],
+		select,
+		textarea {
+			font-family: "Red Rose", cursive;
+			font-weight: lighter;
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #f8ce9a;
+			margin-top: 6px;
+			margin-bottom: 16px;
+			resize: vertical;
+		}
+		input[type="submit"] {
+			background-color: #fc9898;
+			font-family: "Red Rose", cursive;
+			font-weight: lighter;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #fc9898;
+			font-family: "Red Rose", cursive;
+			font-weight: lighter;
+		}
+		.column label {
+			font-family: "Red Rose", cursive;
+			font-size: 24px;
+			font-weight: lighter;
+		}
+		h1 {
+			font-family: "Red Rose", cursive;
+			font-size: 60px;
+			font-weight: 100;
+		}
+		.container-2 {
+			background-color: bisque;
+			border-radius: 5px;
+			padding: 10px;
+		}
+		.column {
+			float: left;
+			width: 50%;
+			margin-top: 6px;
+			padding: 20px;
+		}
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		.text-muted {
+			font-family: "Red Rose", cursive;
+			font-size: 24px;
+			color: white;
+			float: right;
+		}
+		footer {
+			position: absolute;
+			margin-bottom: 0;
+			width: 100%;
+			height: 60px;
+			background-color: #fc9898;
+			line-height: 60px;
+		}
+		.footer {
+			position: absolute;
+			margin-bottom: 0;
+			width: 100%;
+		}
+		img {
+			float: right;
+			padding-top: 7px;
+		}
+		@media screen and (max-width: 400px) {
+			.column,
+			input[type="submit"] {
+				width: 100%;
+				margin-top: 0;
+			}
+		}
+	</style>
+
+	<!--BEGIN BODY-->
+	<body>
+		<!--BEGIN NAV (CONTAINER-1)-->
+		<div class="container-1">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link-active" href="index.html"
+								>About</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link-active" href="portfolio.html"
+								>Portfolio</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link-active" href="contact.html"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--BEGIN CONTAINER-2-->
+		<div class="container-2">
+			<div style="text-align: center">
+				<h1>Contact Me</h1>
+			</div>
+			<div class="row">
+				<div class="column">
+					<img
+						src="Melissa-8x.jpg"
+						style="width: 70%"
+						alt="Melissa Kinsey"
+					/>
+				</div>
+				<div class="column">
+					<form action="/action_page.php">
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" />
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" />
+						<label for="country">Country</label>
+						<select id="country" name="country">
+							<option value="USA">USA</option>
+							<option value="Austria">Austria</option>
+							<option value="Bangladesh">Bangladesh</option>
+							<option value="Canada">Canada</option>
+							<option value="China">China</option>
+							<option value="Dominican Republic">
+								Dominican Republic
+							</option>
+							<option value="Germany">Germany</option>
+							<option value="India">India</option>
+							<option value="Iran">Iran</option>
+							<option value="Iraq">Iraq</option>
+							<option value="Ireland">Ireland</option>
+							<option value="Israel">Israel</option>
+							<option value="Pakistan">Pakistan</option>
+							<option value="Puerto Rico">Puerto Rico</option>
+							<option value="Soviet Union">Soviet Union</option>
+							<option value="Turkey">Turkey</option>
+							<option value="UAE">UAE</option>
+							<option value="UK">UK</option>
+							<option value="Ukraine">Ukraine</option>
+							<option value="Other">Other</option>
+						</select>
+						<label for="subject">Subject</label>
+						<textarea
+							id="subject"
+							name="subject"
+							placeholder="What I did on summer vacation"
+							style="height: 170px"
+						></textarea>
+						<input type="submit" value="Submit" />
+					</form>
+				</div>
+			</div>
+			<!--BEGIN FOOOTER-->
+			<footer class="footer">
+				<!--BEGIN CONTAINER-3-->
+				<div class="container-3">
+					<div class="row-sm-8">
+						<div class="row-sm-4">
+							<span class="text-muted"
+								>Melissa Kinsey | kinsey.melissa@gmail.com |
+								314-349-6309</span
+							>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<script
+				src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+				integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+				crossorigin="anonymous"
+			></script>
+			<script>
+				window.jQuery ||
+					document.write(
+						'<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+					);
+			</script>
+			<script src="../../assets/js/vendor/popper.min.js"></script>
+			<script src="../../dist/js/bootstrap.min.js"></script>
+		</div>
+	</body>
+</html>

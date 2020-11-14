@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<!--BEGIN HEAD-->
+	<head>
+		<title>Home</title>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Portfolio of work created during the Columbia University Coding Boot Camp, October 2020 to April 2021."
+		/>
+		<meta
+			name="keywords"
+			content="portfolio, coding-boot-camp, technical-writing, programming, engineering"
+		/>
+		<meta name="author" content="Melissa Kinsey" />
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href="piggy-bank-favicon.png"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<!--BEGIN STYLE-->
+	<style>
+		html {
+			position: relative;
+			min-height: 100%;
+		}
+		.container-1 {
+			width: 100%;
+			height: auto;
+		}
+		ul {
+			background-color: #fc9898;
+		}
+		li {
+			font-family: "Red Rose", cursive;
+			float: left;
+			margin: 10 px;
+			padding-left: 45px;
+			font-size: 28px;
+			color: white;
+			list-style: none;
+			background-color: #fc9898;
+		}
+		a.nav-link-active {
+			color: white;
+		}
+		.container-2 {
+			width: 900px;
+			margin: 0 auto;
+			padding: 100px;
+		}
+		h1 {
+			font-family: "Red Rose", cursive;
+			font-weight: lighter;
+			color: black;
+			font-size: 60px;
+			float: left;
+		}
+		h2 {
+			font-family: "Red Rose", cursive;
+			color: black;
+			font-size: 60px;
+			float: right;
+		}
+		.hero-image {
+			background-image: url("piggy-bank-1056615_1920.png");
+			vertical-align: middle;
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			-ms-flex-item-align: center;
+			max-width: 100%;
+		}
+		.footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 60px;
+			line-height: 60px;
+			background-color: #fc9898;
+		}
+		.text-muted {
+			font-family: "Red Rose", cursive;
+			font-size: 24px;
+			color: white;
+			float: right;
+		}
+	</style>
+
+	<!--BEGIN BODY-->
+	<body>
+		<!-- BEGIN CONTAINER-1 -->
+		<div class="container-1">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="nav">
+						<li class="nav-item">
+							<a class="nav-link-active" href="index.html"
+								>About</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link-active" href="portfolio.html"
+								>Portfolio</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link-active" href="contact.html"
+								>Contact</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- BEGIN CONTAINER-2 -->
+		<div class="container-2">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="col-sm-8">
+						<h1>Better documentation</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<img
+						src="piggy-bank-1056615_1920.png"
+						class="hero-image"
+						alt="Coin dropping into a piggy bank"
+					/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>Less tech debt</h2>
+				</div>
+			</div>
+		</div>
+		<!--BEGIN FOOOTER-->
+		<footer class="footer">
+			<!--BEGIN CONTAINER-3-->
+			<div class="container-3">
+				<span class="text-muted"
+					>Melissa Kinsey | kinsey.melissa@gmail.com |
+					314-349-6309</span
+				>
+			</div>
+		</footer>
+	</body>
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"
+	></script>
+	<script>
+		window.jQuery ||
+			document.write(
+				'<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+			);
+	</script>
+	<script src="../../assets/js/vendor/popper.min.js"></script>
+	<script src="../../dist/js/bootstrap.min.js"></script>
+</html>
