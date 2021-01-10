@@ -117,6 +117,80 @@ div#footer {
 	justify-content: flex-end;
 }
 
+.container-2 h1 {
+	font-family: "Red Rose", cursive;
+	font-weight: lighter;
+	color: black;
+	font-size: 60px;
+}
+p {
+	font-family: "Red Rose", cursive;
+	line-height: 1em;
+	color: black;
+	font-size: 24px;
+}
+div.jumbotron {
+	font-family: "Red Rose", cursive;
+	background-color: bisque;
+}
+.container-text-center {
+	background-color: bisque;
+}
+
+img {
+	float: right;
+	padding-top: 7px;
+	border-radius: 35px;
+}
+
+.container-2 {
+	background-color: bisque;
+	border-radius: 5px;
+	padding: 10px;
+}
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+input[type="text"],
+select,
+textarea {
+	font-family: "Red Rose", cursive;
+	font-weight: lighter;
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #f8ce9a;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type="submit"] {
+	background-color: #fc9898;
+	font-family: "Red Rose", cursive;
+	font-weight: lighter;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #fc9898;
+	font-family: "Red Rose", cursive;
+	font-weight: lighter;
+}
+.column label {
+	font-family: "Red Rose", cursive;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
 /* Define page height and font size */
 html {
 	font-size: 1rem;

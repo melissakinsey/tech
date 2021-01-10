@@ -27,119 +27,10 @@
 			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
 		/>
+		<!--CSS Link-->
+  <link rel="stylesheet" href="style.css">
 	</head>
 	<!--BEGIN STYLE-->
-	<style>
-		html {
-			position: relative;
-			min-height: 100%;
-		}
-		* {
-			box-sizing: border-box;
-		}
-		.container-1 {
-			margin-bottom: 0;
-			border-radius: 0;
-		}
-		ul {
-			background-color: #fc9898;
-		}
-		li {
-			font-family: "Red Rose", cursive;
-			float: left;
-			margin: 10 px;
-			padding-left: 100px;
-			font-size: 28px;
-			color: white;
-			list-style: none;
-			background-color: #fc9898;
-		}
-		a.nav-link-active {
-			color: white;
-		}
-		input[type="text"],
-		select,
-		textarea {
-			font-family: "Red Rose", cursive;
-			font-weight: lighter;
-			width: 100%;
-			padding: 12px;
-			border: 1px solid #f8ce9a;
-			margin-top: 6px;
-			margin-bottom: 16px;
-			resize: vertical;
-		}
-		input[type="submit"] {
-			background-color: #fc9898;
-			font-family: "Red Rose", cursive;
-			font-weight: lighter;
-			color: white;
-			padding: 12px 20px;
-			border: none;
-			cursor: pointer;
-		}
-		input[type="submit"]:hover {
-			background-color: #fc9898;
-			font-family: "Red Rose", cursive;
-			font-weight: lighter;
-		}
-		.column label {
-			font-family: "Red Rose", cursive;
-			font-size: 24px;
-			font-weight: lighter;
-		}
-		h1 {
-			font-family: "Red Rose", cursive;
-			font-size: 60px;
-			font-weight: 100;
-		}
-		.container-2 {
-			background-color: bisque;
-			border-radius: 5px;
-			padding: 10px;
-		}
-		.column {
-			float: left;
-			width: 50%;
-			margin-top: 6px;
-			padding: 20px;
-		}
-		.row:after {
-			content: "";
-			display: table;
-			clear: both;
-		}
-		.text-muted {
-			font-family: "Red Rose", cursive;
-			font-size: 24px;
-			color: white;
-			float: right;
-		}
-		footer {
-			position: absolute;
-			margin-bottom: 0;
-			width: 100%;
-			height: 60px;
-			background-color: #fc9898;
-			line-height: 60px;
-		}
-		.footer {
-			position: absolute;
-			margin-bottom: 0;
-			width: 100%;
-		}
-		img {
-			float: right;
-			padding-top: 7px;
-		}
-		@media screen and (max-width: 400px) {
-			.column,
-			input[type="submit"] {
-				width: 100%;
-				margin-top: 0;
-			}
-		}
-	</style>
 
 	<!--BEGIN BODY-->
 	<body>
@@ -175,7 +66,7 @@
 			<div class="row">
 				<div class="column">
 					<img
-						src="Melissa-8x.jpg"
+						src="assets/Melissa-8x.jpg"
 						style="width: 70%"
 						alt="Melissa Kinsey"
 					/>
@@ -222,20 +113,14 @@
 					</form>
 				</div>
 			</div>
+		
+
+
 			<!--BEGIN FOOOTER-->
-			<footer class="footer">
-				<!--BEGIN CONTAINER-3-->
-				<div class="container-3">
-					<div class="row-sm-8">
-						<div class="row-sm-4">
-							<span class="text-muted"
-								>Melissa Kinsey | kinsey.melissa@gmail.com |
-								314-349-6309</span
-							>
-						</div>
-					</div>
-				</div>
-			</footer>
+			 <!--FOOOTER-->
+       <div id="footer"><h3>
+          Melissa Kinsey | kinsey.melissa@gmail.com |
+          314-349-6309</h3></div>
 			<script
 				src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 				integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -250,5 +135,4 @@
 			<script src="../../assets/js/vendor/popper.min.js"></script>
 			<script src="../../dist/js/bootstrap.min.js"></script>
 		</div>
-	</body>
 </html>
