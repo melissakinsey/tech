@@ -1,19 +1,3 @@
-/* body {
-	display: flex;
-	flex-flow: row wrap;
-} */
-
-/* .container {
-	display: flex;
-	flex-flow: row wrap;
-	background-color: #ffffff;
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;
-	height: auto;
-} */
-
 body {
 	margin: 0;
 	height: 100%;
@@ -30,30 +14,15 @@ body {
 	margin-bottom: auto;
 	margin-left: auto;
 	margin-right: auto;
-	height: auto;
 }
+
 .nav-item {
 	font-family: "Red Rose", cursive;
 	font-size: 24px;
-	color: #fc9898;
+	color: #d27d7d;
 	float: left;
 }
 
-/* h1#documentation {
-	min-height: 30%;
-	margin-top: auto;
-	margin-left: auto;
-	margin-right: auto;
-	justify-content: left;
-}
-
-h1#debt {
-	margin-top: auto;
-	margin-bottom: auto;
-	margin-left: auto;
-	margin-right: auto;
-	justify-content: right;
-} */
 ul {
 	display: flex;
 	align-items: flex-start;
@@ -68,69 +37,24 @@ li {
 	margin: 5 px;
 	padding-left: 5%;
 	font-size: 28px;
-	color: #fc9898;
+	color: #d27d7d;
 	list-style: none;
 	background-color: #ffffff;
 }
 
 a.nav-link-active {
-	color: #fc9898;
+	color: #d27d7d;
 }
 
-/* .flex-item-left {
-	flex: 50%;
-	-ms-flex-align: baseline; */
-
-/* h1#debt {
-	display: flex;
-	align-items: flex-end;
-	text-align: right;
-	height: 30%;
-}
-
-h1#documentation {
-	display: flex;
-	align-items: flex-end;
-	text-align: left;
-	text-align: left;
-} */
-
-h1 {
-	font-family: "Red Rose", cursive;
-	font-weight: lighter;
-	color: black;
-	font-size: 2rem;
-}
-
-h2 {
-	font-family: "Red Rose", cursive;
-	font-size: .75rem;
-	color: white;
-	text-align: right;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* section.row {
+section.row {
 	justify-content: space-evenly;
 	align-items: center;
-} */
+	margin-left: 5%;
+}
 
-/* img.img-fluid {
-	display: flex;
-	flex-flow: row wrap;
-	/* margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-	margin-bottom: auto;
-	max-width: 100%;
-	justify-content: center;
-	align-items: center;
-	-ms-flex-item-align: center;
-} */
 .flex-container {
 	width: 100%;
-	height: auto;
+	height: 30%;
 	padding: 0;
 	margin: 0;
 	display: -webkit-box;
@@ -142,12 +66,39 @@ h2 {
 	justify-content: center;
 }
 
-section.row {
-	width: auto;
-	border: 1px solid blue;
+h1 {
+	font-family: "Red Rose", cursive;
+	font-weight: 700;
+	color: black;
+	font-size: 2rem;
 }
 
-section#footer.row {
+h1#debt {
+	font-weight: 300;
+}
+
+h2 {
+	font-family: "Red Rose";
+	font-weight: 400;
+	font-size: 0.75rem;
+	color: white;
+	display: flex;
+	position: sticky;
+	float: inline-end;
+	flex-flow: row wrap;
+	height: 3rem;
+	background-color: #d27d7d;
+	align-content: center;
+	width: 100%;
+	justify-content: flex-end;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 5%;
+}
+
+/* h2 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
@@ -156,10 +107,16 @@ section#footer.row {
 	background-color: #fc9898;
 	display: flex;
 	flex-flow: row wrap;
-	text-align: end;
-}
+	text-align: end; */
+/* } */
 
-
+/* div.row#footer {
+	position: relative;
+	align-content: right;
+	justify-content: baseline;
+	align-items: baseline;
+	align-self: baseline;
+} */
 /* Define page height and font size */
 html {
 	font-size: 1rem;
@@ -171,22 +128,23 @@ html {
 		flex-flow: row wrap;
 	}
 
-/* Define breakpoints and font sizes */
-@media (min-width: 640px) and (max-width: 1023px) {
-	html {
-		font-size: 1.0625rem;
+	/* Define breakpoints and font sizes */
+	@media (min-width: 640px) and (max-width: 1023px) {
+		html {
+			font-size: 1.0625rem;
+		}
 	}
-}
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-	html {
-		font-size: 1.125rem;
+	@media (min-width: 1024px) and (max-width: 1279px) {
+		html {
+			font-size: 1.125rem;
+		}
 	}
-}
 
-/* Define max font size and viewport */
-@media (min-width: 1280px) {
-	html {
-		font-size: 1.1875rem;
+	/* Define max font size and viewport */
+	@media (min-width: 1280px) {
+		html {
+			font-size: 1.1875rem;
+		}
 	}
 }
