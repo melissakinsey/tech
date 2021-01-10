@@ -1,11 +1,22 @@
-.container {
-	display: block;
+/* body {
+	display: flex;
+	flex-flow: row wrap;
+} */
+
+/* .container {
+	display: flex;
 	flex-flow: row wrap;
 	background-color: #ffffff;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: auto;
 	margin-right: auto;
+	height: auto;
+} */
+
+body {
+	margin: 0;
+	height: 100%;
 }
 
 .nav-container {
@@ -17,36 +28,32 @@
 	align-items: left;
 	margin-top: auto;
 	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+.nav-item {
+	font-family: "Red Rose", cursive;
+	font-size: 24px;
+	color: #fc9898;
+	float: left;
 }
 
-h1#documentation {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: left;
-	background-color: #ffffff;
-	align-items: flex-start;
-	text-align: left;
+/* h1#documentation {
+	min-height: 30%;
 	margin-top: auto;
-	margin-bottom: auto;
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: left;
 }
 
 h1#debt {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: right;
-	background-color: #ffffff;
-	align-items: flex-end;
-	text-align: right;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: auto;
 	margin-right: auto;
 	justify-content: right;
-}
-
+} */
 ul {
 	display: flex;
 	align-items: flex-start;
@@ -54,16 +61,18 @@ ul {
 	background-color: #ffffff;
 	flex-flow: row wrap;
 }
+
 li {
 	font-family: "Red Rose", cursive;
 	float: left;
-	margin: 10 px;
-	padding-left: 10%;
+	margin: 5 px;
+	padding-left: 5%;
 	font-size: 28px;
 	color: #fc9898;
 	list-style: none;
 	background-color: #ffffff;
 }
+
 a.nav-link-active {
 	color: #fc9898;
 }
@@ -72,7 +81,7 @@ a.nav-link-active {
 	flex: 50%;
 	-ms-flex-align: baseline; */
 
-h1#debt {
+/* h1#debt {
 	display: flex;
 	align-items: flex-end;
 	text-align: right;
@@ -84,7 +93,7 @@ h1#documentation {
 	align-items: flex-end;
 	text-align: left;
 	text-align: left;
-}
+} */
 
 h1 {
 	font-family: "Red Rose", cursive;
@@ -95,9 +104,11 @@ h1 {
 
 h2 {
 	font-family: "Red Rose", cursive;
-	color: black;
-	font-size: 1.5rem;
-	float: right;
+	font-size: .75rem;
+	color: white;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* section.row {
@@ -105,60 +116,60 @@ h2 {
 	align-items: center;
 } */
 
-img.img-fluid {
-	display: block;
-	margin-left: auto;
+/* img.img-fluid {
+	display: flex;
+	flex-flow: row wrap;
+	/* margin-left: auto;
 	margin-right: auto;
 	margin-top: auto;
 	margin-bottom: auto;
 	max-width: 100%;
-	height: 30%;
-}
-img.img-fluid {
-	display: flex;
-	flex-flow: row wrap;
-	max-width: 100%;
-	height: auto;
 	justify-content: center;
 	align-items: center;
 	-ms-flex-item-align: center;
-}
-
-span.text-muted {
+} */
+.flex-container {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	margin: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
-	flex-flow: row wrap;
-	font-family: "Red Rose", cursive;
-	font-size: 1rem;
-	color: white;
-	float: right;
-	align-items: right;
-	justify-content: right;
+	align-items: center;
+	justify-content: center;
 }
 
-.nav-item {
-	font-family: "Red Rose", cursive;
-	font-size: 24px;
-	color: #fc9898;
-	float: left;
+section.row {
+	width: auto;
+	border: 1px solid blue;
 }
 
-.footer {
+section#footer.row {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	max-height: 60px;
 	line-height: 60px;
 	background-color: #fc9898;
+	display: flex;
+	flex-flow: row wrap;
+	text-align: end;
+}
+
+
+/* Define page height and font size */
+html {
+	font-size: 1rem;
+	height: 100%;
 }
 
 @media (max-width: 800px) {
 	.flex-container {
-		flex-flow: column wrap;
+		flex-flow: row wrap;
 	}
-}
-html {
-	font-size: 1rem;
-}
 
 /* Define breakpoints and font sizes */
 @media (min-width: 640px) and (max-width: 1023px) {
