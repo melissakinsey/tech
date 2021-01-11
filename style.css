@@ -8,6 +8,9 @@ body {
 	overflow-x: hidden;
 }
 
+#menu {
+	position: fixed;
+}
 .nav-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -109,12 +112,26 @@ h3 {
 	padding-right: 10px;
 }
 
-div#footer {
+nav-container#footer {
 	align-items: baseline;
 	margin-bottom: 0px;
 	border-bottom: 0px !important;
 	width: 100% !important;
 	justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
+}
+
+#footer {
+	align-items: baseline;
+	margin-bottom: 0px;
+	width: 100% !important;
+	justify-content: right !important;
+	position: fixed;
 }
 
 .container-2 h1 {

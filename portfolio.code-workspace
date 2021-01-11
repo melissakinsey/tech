@@ -10,6 +10,9 @@
 		"editor.tabSize": 2,
 		"editor.wordWrap": "on",
 		"editor.autoIndent": "advanced",
-		"editor.codeActionsOnSave": { "source.fixAll": true }
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true
+		},
+		"liveServer.settings.multiRootWorkspaceName": "sticky-footer"
 	}
 }

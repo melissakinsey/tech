@@ -1,7 +1,20 @@
+
+<html>
 <head>
-  <!--Title-->
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script> 
+    <!--Title-->
   <title>Home</title>
-  <!--Encoding-->
+    <!--Encoding-->
   <meta charset="UTF-8"/>
   <!--Metatext-->
   <meta
@@ -38,27 +51,8 @@
 </head>
 <body>
   <!-- TOP NAVIGATION -->
-  <div class="nav-container">
-           <li class="nav-item">
-            <a class="nav-link-active" href="index.html"
-            >About</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link-active" href="portfolio.html"
-            >Portfolio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link-active" href="contact.html"
-            >Contact</a
-            >
-          </li>
-          <!-- </ul> -->
-        </div>
-        <!-- </div> -->
-        <!-- </div> -->
-        
+  <div id="header"></div>
+           
         <div class="flex-container">
           <section class="row" class="flex-item"><h1 id="documentation">Better Documentation</h1></section>
         </div>
@@ -72,17 +66,14 @@
           </section>
         </div>
         
+        
         <!--FOOOTER-->
-       <div id="footer"><h3>
-          Melissa Kinsey | kinsey.melissa@gmail.com |
-          314-349-6309</h3></div>
+       <div id="footer"></div>
+
          
 </body>
-          <script
-          src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-          crossorigin="anonymous"∏></script>
-          <script>
+</html>
+         <script>
             window.jQuery ||
             document.write(
             '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
