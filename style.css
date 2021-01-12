@@ -87,6 +87,18 @@ h1 {
 	margin-top: 0%;
 }
 
+h1#name {
+	font-family: "Red Rose", cursive;
+	font-weight: 700;
+	color: black;
+	font-size: 2rem;
+	justify-content: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	display: flex;
+	margin-top: 0%;
+}
+
 h2 {
 	font-family: "Red Rose", cursive;
 	font-weight: 300;
@@ -126,13 +138,36 @@ h3 {
 	}
 }
 
-p {
+#jumbotron {
 	font-family: "Red Rose", cursive;
 	line-height: 1em;
 	color: black;
 	font-size: 24px;
+	max-width: none;
+	max-height: none;
+}
+
+div.container.text-center#name {
+	font-size: 5rem;
+}
+
+div.jumbotron {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+p {
+	font-family: "Red Rose", cursive;
+	line-height: 1em;
+	color: black;
+	font-size: 1rem;
 	max-width: 400px;
 	max-height: 350px;
+	align-content: center;
+}
+
+p#jumbotron {
+	font-size: 1rem;
+	align-items: center;
 }
 div.jumbotron {
 	font-family: "Red Rose", cursive;
@@ -142,10 +177,21 @@ div.jumbotron {
 	background-color: bisque;
 }
 
+div.col-sm-3 {
+	margin-top: 1rem;
+	align-items: center;
+}
+
 img {
 	float: right;
 	padding-top: 7px;
-	border-radius: 35px;
+	padding-bottom: 2rem;
+	border-radius: 35px 35px 35px 35px;
+}
+
+img.img-responsive {
+	border-radius: 45px 45px 45px 45px;
+	padding: 0.25rem 0rem 0.75rem 0rem;
 }
 
 .container-2 {
