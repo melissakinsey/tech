@@ -216,8 +216,13 @@ img.img-responsive {
 	max-height: 50%;
 }
 
-i.fab.fa-github::before {
-	font-size: 50px;
+i.fab {
+	font-size: 45px;
+	color: #d27d7d;
+}
+
+i.fas {
+	font-size: 44px;
 	color: #d27d7d;
 }
 
