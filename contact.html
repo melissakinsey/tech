@@ -1,24 +1,40 @@
-<!DOCTYPE html>
-<html lang="en-us">
-	<!--BEGIN HEAD-->
+<html>
 	<head>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			$(function () {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
+		<!--Title-->
 		<title>Contact</title>
+		<!--Encoding-->
 		<meta charset="UTF-8" />
-		<meta
-			name="description"
-			content="Portfolio of work created during the Columbia University Coding Boot Camp, October 2020 to April 2021."
-		/>
+		<!--Metatext-->
+		<meta name="Contact" />
+		<!--SEO Keywords-->
 		<meta
 			name="keywords"
 			content="portfolio, coding-boot-camp, technical-writing, programming, engineering"
 		/>
+		<!--Author-->
 		<meta name="author" content="Melissa Kinsey" />
+		<!--Favicon-->
 		<link
 			rel="shortcut icon"
 			type="image/png"
-			href="piggy-bank-favicon.png"
+			img
+			src="assets/piggy-bank-favicon.png"
 		/>
+		<!--Viewport Dimensions-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--Bootstrap Link-->
 		<link
 			rel="stylesheet"
 			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
@@ -28,24 +44,22 @@
 			rel="stylesheet"
 		/>
 		<!--CSS Link-->
-  <link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="style.css" />
 	</head>
-	<!--BEGIN STYLE-->
-
 	<!--BEGIN BODY-->
 	<body>
-		<!--BEGIN NAV (CONTAINER-1)-->
-	  <div id="header"></div>
+		<!--TOP NAVIGATION (CONTAINER-1)-->
+		<div id="header"></div>
 		<!--BEGIN CONTAINER-2-->
 		<div class="container-2">
-			<div style="text-align: center">
+			<div>
 				<h1>Contact Me</h1>
 			</div>
 			<div class="row">
 				<div class="column">
 					<img
 						src="assets/Melissa-8x.jpg"
-						style="width: 70%"
+						style="width: 60%"
 						alt="Melissa Kinsey"
 					/>
 				</div>
@@ -85,32 +99,13 @@
 							id="subject"
 							name="subject"
 							placeholder="What I did on summer vacation"
-							style="height: 170px"
+							style="max-height: 170px"
 						></textarea>
 						<input type="submit" value="Submit" />
 					</form>
 				</div>
 			</div>
-		
-
-
-			<!--BEGIN FOOOTER-->
-			 <!--FOOOTER-->
-       <div id="footer"><h3>
-          Melissa Kinsey | kinsey.melissa@gmail.com |
-          314-349-6309</h3></div>
-			<script
-				src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-				integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-				crossorigin="anonymous"
-			></script>
-			<script>
-				window.jQuery ||
-					document.write(
-						'<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
-					);
-			</script>
-			<script src="../../assets/js/vendor/popper.min.js"></script>
-			<script src="../../dist/js/bootstrap.min.js"></script>
 		</div>
+		<div id="footer"></div>
+	</body>
 </html>

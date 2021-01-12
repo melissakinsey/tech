@@ -84,7 +84,7 @@ h1 {
 	padding-right: 5px;
 	padding-left: 5px;
 	display: flex;
-	text-size-adjust: 70%;
+	margin-top: 0%;
 }
 
 h2 {
@@ -112,13 +112,13 @@ h3 {
 	padding-right: 10px;
 }
 
-nav-container#footer {
+/* nav-container#footer {
 	align-items: baseline;
 	margin-bottom: 0px;
 	border-bottom: 0px !important;
 	width: 100% !important;
 	justify-content: flex-end;
-}
+} */
 
 @media (min-width: 768px) {
 	.bd-placeholder-img-lg {
@@ -126,25 +126,13 @@ nav-container#footer {
 	}
 }
 
-#footer {
-	align-items: baseline;
-	margin-bottom: 0px;
-	width: 100% !important;
-	justify-content: right !important;
-	position: fixed;
-}
-
-.container-2 h1 {
-	font-family: "Red Rose", cursive;
-	font-weight: lighter;
-	color: black;
-	font-size: 60px;
-}
 p {
 	font-family: "Red Rose", cursive;
 	line-height: 1em;
 	color: black;
 	font-size: 24px;
+	max-width: 400px;
+	max-height: 350px;
 }
 div.jumbotron {
 	font-family: "Red Rose", cursive;
@@ -176,6 +164,7 @@ img {
 	display: table;
 	clear: both;
 }
+
 input[type="text"],
 select,
 textarea {
@@ -189,9 +178,9 @@ textarea {
 	resize: vertical;
 }
 input[type="submit"] {
-	background-color: #fc9898;
+	background-color: #d27d7d;
 	font-family: "Red Rose", cursive;
-	font-weight: lighter;
+	font-weight: 500;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -206,6 +195,13 @@ input[type="submit"]:hover {
 	font-family: "Red Rose", cursive;
 	font-size: 24px;
 	font-weight: lighter;
+}
+#footer {
+	align-items: baseline;
+	margin-bottom: 0px;
+	width: 100% !important;
+	justify-content: right !important;
+	position: fixed;
 }
 
 /* Define page height and font size */
