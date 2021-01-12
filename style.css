@@ -149,6 +149,10 @@ h3 {
 	max-height: none;
 }
 
+#github {
+	padding: 5rem;
+}
+
 div.container.text-center#name {
 	font-size: 5rem;
 }
