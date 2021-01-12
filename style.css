@@ -1,11 +1,11 @@
 body {
 	height: 100%;
-	max-height: 800px;
+	/* max-height: 800px; */
 	min-width: 400px;
 	margin-right: -10px;
 	margin-top: 0;
 	margin-bottom: 0 !important;
-	overflow-x: hidden;
+	overflow: scroll;
 }
 
 #menu {
@@ -87,12 +87,13 @@ h1 {
 	margin-top: 0%;
 }
 
-h1#name {
+h1.special {
 	font-family: "Red Rose", cursive;
-	font-weight: 700;
+	font-weight: 400;
 	color: black;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	justify-content: center;
+	text-align: center;
 	padding-right: 5px;
 	padding-left: 5px;
 	display: flex;
@@ -167,8 +168,9 @@ p {
 }
 
 p#jumbotron {
-	font-size: 1rem;
+	font-size: 0.75rem;
 	align-items: center;
+	margin-bottom: 0;
 }
 div.jumbotron {
 	font-family: "Red Rose", cursive;
@@ -181,18 +183,34 @@ div.jumbotron {
 div.col-sm-3 {
 	margin-top: 1rem;
 	align-items: center;
+	padding-bottom: 0;
+}
+
+.col-sm-3 {
+	padding-bottom: 0;
+}
+
+div.row {
+	margin: 0px 0px 0px 0px;
 }
 
 img {
 	float: right;
-	padding-top: 7px;
+	padding-top: 0.25px;
 	padding-bottom: 2rem;
 	border-radius: 35px 35px 35px 35px;
 }
 
 img.img-responsive {
-	border-radius: 45px 45px 45px 45px;
 	padding: 0.25rem 0rem 0.75rem 0rem;
+	border-radius: 45px 45px 45px 45px;
+	margin-bottom: 1rem;
+	max-height: 50%;
+}
+
+#melissa {
+	border-radius: 45px 45px 45px 45px;
+	padding: 0rem 0rem 0rem 0rem;
 }
 
 .container-2 {
@@ -246,11 +264,19 @@ input[type="submit"]:hover {
 	font-weight: lighter;
 }
 #footer {
-	align-items: center;
-	margin-bottom: 10px;
-	width: 100% !important;
-	justify-content: right !important;
 	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #d27d7d;
+	color: white;
+	font-family: "Red Rose", cursive;
+	font-weight: 500;
+	text-align: right;
+	padding-right: 1rem;
+	height: 2rem;
+	text-align: right;
+	padding-top: 0.5rem;
 }
 
 /* Define page height and font size */
