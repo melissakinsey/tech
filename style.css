@@ -143,10 +143,6 @@ h3 {
 	max-height: none;
 }
 
-#github {
-	padding: 5rem;
-}
-
 div.container.text-center#name {
 	font-size: 5rem;
 }
@@ -215,6 +211,7 @@ i.fab {
 	color: #d27d7d;
 	padding-top: 7%;
 	padding-bottom: 5%;
+	margin-right: 5%;
 }
 
 i.fas {
