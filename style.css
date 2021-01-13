@@ -134,12 +134,6 @@ h3 {
 	justify-content: flex-end;
 } */
 
-@media (min-width: 768px) {
-	.bd-placeholder-img-lg {
-		font-size: 3.5rem;
-	}
-}
-
 #jumbotron {
 	font-family: "Red Rose", cursive;
 	line-height: 1em;
@@ -219,11 +213,15 @@ img.img-responsive {
 i.fab {
 	font-size: 45px;
 	color: #d27d7d;
+	padding-top: 7%;
+	padding-bottom: 5%;
 }
 
 i.fas {
 	font-size: 44px;
 	color: #d27d7d;
+	padding-top: 7%;
+	padding-bottom: 5%;
 }
 
 #melissa {
@@ -301,6 +299,12 @@ input[type="submit"]:hover {
 html {
 	font-size: 1rem;
 	height: 100%;
+}
+
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem;
+	}
 }
 
 @media (max-width: 800px) {
