@@ -95,10 +95,15 @@ h1.special {
 	font-size: 1.5rem;
 	justify-content: center;
 	text-align: center;
+	padding-top: 30%;
 	padding-right: 5px;
 	padding-left: 5px;
 	display: flex;
 	margin-top: 0%;
+}
+
+#special-contact {
+	padding-top: 50px;
 }
 
 h2 {
@@ -193,6 +198,7 @@ div.col-sm-4 {
 
 div.row {
 	margin: 0px 0px 0px 0px;
+	background-color: white;
 }
 
 img {
@@ -238,10 +244,10 @@ i.fas {
 }
 
 .container-2 {
-	background-color: #f8e4e4;
 	border-radius: 5px;
 	padding: 10px;
 }
+
 .column {
 	float: left;
 	width: 50%;
@@ -273,6 +279,8 @@ input[type="submit"] {
 	font-weight: 500;
 	color: white;
 	padding: 12px 20px;
+	margin-top: 20%;
+	margin-bottom: 20%;
 	border: none;
 	cursor: pointer;
 	border-radius: 25px;
@@ -282,11 +290,15 @@ input[type="submit"]:hover {
 	font-family: "Red Rose", cursive;
 	font-weight: lighter;
 }
+
 .column label {
 	font-family: "Red Rose", cursive;
 	font-size: 24px;
 	font-weight: lighter;
+	margin-top: 20%;
+	margin-bottom: 20%;
 }
+
 #footer {
 	position: fixed;
 	left: 0;
