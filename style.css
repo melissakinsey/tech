@@ -258,7 +258,8 @@ i.fas {
 #melissa {
 	border-radius: 45px 45px 45px 45px;
 	padding: 0rem 0rem 0rem 0rem;
-	margin-right: 5rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
 	margin-top: 3rem;
 }
 
@@ -299,8 +300,7 @@ input[type="submit"] {
 	font-weight: 500;
 	color: white;
 	padding: 12px 20px;
-	margin-top: 20%;
-	margin-bottom: 20%;
+	margin-top: 5%;
 	border: none;
 	cursor: pointer;
 	border-radius: 25px;
