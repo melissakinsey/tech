@@ -2,22 +2,17 @@
 
 ## Description
 
-As our second homework assignment, we were asked to create a preliminary portfolio consisting of three pages:
+This portfolio is for Melissa Kinsey, a technical writer in St. Louis, Missouri (hey, don't blame me—I just live here). It consists of five pages, three of which were originally built as a homework assignment for the Columbia University Engineering Full-Stack Boot Camp. The other two pages, "Tech Writing" and "GitHub," were added later.
 
-\*Home ("About" page): This page was the most difficult for me. I couldn't get the page to be responsive. I suspect I'll have to start from scratch and try it a different way.
+\*Home ("About" page): This page was the most difficult for me. I couldn't get the page to be responsive. The page works better now, but I suspect I'll have to scrap flexbox and just use CSS grid on this page.
 
-\*Portfolio (work samples): I'm a technical writer, not a developer. I've also done some writing for Slate and other online sites. I had URLs and images handy, so I used them to fill out my portfolio page. The images are linked to my articles. Later I'll replace or supplement them with more technical writing samples.
+\*Portfolio: In addition to tech writing, I do some hobby writing now and then for Slate and other online sites (that is, when I'm not also enrolled in a programming boot camp 20 hours a week). This page features my Slate stories.
 
-\*Contact (form): On this page, I customized the form a bit:
+\*GitHub: This page features some projects we've done in class. Still amateurish, for sure, but not bad for having built each of them in a week, right?
 
-**Added a header and footer
-**Reduced the size of the profile image
-**Added about a dozen additional country choices to the "Country" selector
-**Changed the background color and the color of the outline around each input area
-**Removed the redundant name prompts in the "First Name" and "Last Name" input areas
-**Validated the HTML with this nifty tool: https://validator.w3.org/nu/#textarea, which caught a stray div tag and a misplaced body tag (kinda important!).
+\*Tech Writing: This page features some of my tech writing samples. My attempt to password protect the page failed (for now), and I'm super careful about not violating any NDA I've signed with my current or a previous employer. But these samples don't give away any trade secrets, so I think I can post them publicly. (No doubt the foreign governments following my GitHub will be disappointed, though.)
 
-On all three pages, I added a favicon. I also incorporated a Google font called "Red Rose, cursive." The name is misleading, since the font is not cursive and there is no cursive variation available. The font is available in different weights, and I used two of them.
+\*Contact (form): Call me! 867-5309. I've got a blank space, baby. And I'll write your name.
 
 ## Credits
 
@@ -25,7 +20,7 @@ Credit is due to our fabulous Columbia University Boot Camp instructor, teaching
 
 Piggy image by Joshua Wilson/96 Images (courtesy Pixabay, Creative Commons license).
 
-## License
+## License (This makes it official)
 
 Copyright (c) 2020, Melissa Kinsey
 
