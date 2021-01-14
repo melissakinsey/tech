@@ -3,6 +3,7 @@ body {
 	/* max-height: 800px; */
 	min-width: 400px;
 	margin-right: -10px;
+	margin-left: -10px;
 	margin-top: 0;
 	margin-bottom: 0 !important;
 	overflow: scroll;
@@ -159,6 +160,8 @@ p {
 	max-width: 400px;
 	max-height: 350px;
 	align-content: center;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
 }
 
 p#jumbotron {
@@ -206,11 +209,18 @@ img.img-responsive {
 	max-height: 50%;
 }
 
+i {
+	text-align: center;
+	width: 100%;
+}
+
 i.fab {
 	font-size: 45px;
 	color: #d27d7d;
 	padding-top: 7%;
 	padding-bottom: 5%;
+	padding-left: 0%;
+	padding-right: 0%;
 }
 
 i.fas {
@@ -218,6 +228,8 @@ i.fas {
 	color: #d27d7d;
 	padding-top: 7%;
 	padding-bottom: 5%;
+	padding-left: 0%;
+	padding-right: 0%;
 }
 
 #melissa {
