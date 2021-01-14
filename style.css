@@ -85,7 +85,8 @@ h1 {
 	padding-right: 5px;
 	padding-left: 5px;
 	display: flex;
-	margin-top: 0%;
+	margin-top: 6%;
+	margin-left: 15%;
 }
 
 h1.special {
@@ -95,11 +96,10 @@ h1.special {
 	font-size: 1.5rem;
 	justify-content: center;
 	text-align: center;
-	padding-top: 30%;
 	padding-right: 5px;
 	padding-left: 5px;
 	display: flex;
-	margin-top: 0%;
+	margin-top: 2%;
 }
 
 #special-contact {
@@ -132,14 +132,6 @@ h3 {
 	margin: 20px 20px 20px 20px;
 }
 
-/* nav-container#footer {
-	align-items: baseline;
-	margin-bottom: 0px;
-	border-bottom: 0px !important;
-	width: 100% !important;
-	justify-content: flex-end;
-} */
-
 #jumbotron {
 	font-family: "Red Rose", cursive;
 	line-height: 1em;
@@ -157,6 +149,13 @@ div.jumbotron {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 }
+
+div.jumbotron#portfolio {
+	max-height: 250px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
 p {
 	font-family: "Red Rose", cursive;
 	line-height: 1em;
@@ -167,6 +166,10 @@ p {
 	align-content: center;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
+}
+
+div.jumbotron#portfolio p {
+	line-height: 1.5rem;
 }
 
 p#jumbotron {
@@ -189,7 +192,7 @@ div.col-sm-3 {
 }
 
 div.col-sm-4 {
-	padding-top: 3rem;
+	padding-top: 2rem;
 }
 
 .col-sm-3 {
@@ -201,8 +204,17 @@ div.row {
 	background-color: white;
 }
 
+div.piggy {
+	min-height: 200px;
+}
+#debt {
+	text-align: right;
+	margin-top: 5%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+}
+
 img {
-	float: right;
 	padding-top: 0.25px;
 	padding-bottom: 2rem;
 	border-radius: 35px 35px 35px 35px;
@@ -213,6 +225,11 @@ img.img-responsive {
 	border-radius: 35px 35px 35px 35px;
 	margin-bottom: 1rem;
 	max-height: 50%;
+}
+
+#bank {
+	margin-top: 5%;
+	margin-left: 45%;
 }
 
 i {
@@ -241,6 +258,8 @@ i.fas {
 #melissa {
 	border-radius: 45px 45px 45px 45px;
 	padding: 0rem 0rem 0rem 0rem;
+	margin-right: 5rem;
+	margin-top: 3rem;
 }
 
 .container-2 {
@@ -268,6 +287,7 @@ textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #fccfcf;
+	background-color: #f8e4e4;
 	margin-top: 6px;
 	margin-bottom: 16px;
 	resize: vertical;
@@ -295,8 +315,8 @@ input[type="submit"]:hover {
 	font-family: "Red Rose", cursive;
 	font-size: 24px;
 	font-weight: lighter;
-	margin-top: 20%;
-	margin-bottom: 20%;
+	margin-top: 2%;
+	margin-bottom: 1%;
 }
 
 #footer {
