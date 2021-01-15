@@ -1,61 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.js"
-			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			crossorigin="anonymous"
-		></script>
-		<script>
-			$(function () {
-				$("#header").load("header.html");
-				$("#footer").load("footer.html");
-			});
-		</script>
-		<!--Title-->
-		<title>Portfolio</title>
-		<!--Encoding-->
-		<meta charset="UTF-8" />
-		<!--Metatext-->
-		<meta name="Portfolio" />
-		<!--SEO Keywords-->
-		<meta
-			name="keywords"
-			content="portfolio, coding-boot-camp, technical-writing, programming, engineering"
-		/>
-		<!--Author-->
-		<meta name="author" content="Melissa Kinsey" />
-		<!--Favicon-->
-		<link
-			rel="shortcut icon"
-			type="image/png"
-			img
-			src="assets/piggy-bank-favicon.png"
-		/>
-		<!--Viewport Dimensions-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"
+	></script>
+	<script>
+		$(function () {
+			$("#header").load("header.html");
+			$("#footer").load("footer.html");
+		});
+	</script>
+	<!--Title-->
+	<title>Portfolio</title>
+	<!--Encoding-->
+	<meta charset="UTF-8" />
+	<!--Metatext-->
+	<meta name="Portfolio" />
+	<!--SEO Keywords-->
+	<meta
+	name="keywords"
+	content="portfolio, coding-boot-camp, technical-writing, programming, engineering"
+	/>
+	<!--Author-->
+	<meta name="author" content="Melissa Kinsey" />
+	<!--Favicon-->
+	<link
+	rel="shortcut icon"
+	type="image/png"
+	img
+	src="assets/piggy-bank-favicon.png"
+	/>
+	<!--Viewport Dimensions-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!--Bootstrap Link-->
+	<link
+	rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+	/>
+	<link
+	href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+	rel="stylesheet"
+	/>
+	<!--CSS Link-->
+	<link rel="stylesheet" href="style.css" />
+</head>
 
-		<!--Bootstrap Link-->
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
-			rel="stylesheet"
-		/>
-		<!--CSS Link-->
-		<link rel="stylesheet" href="style.css" />
-	</head>
-
-	<body>
-		<!-- HEADER -->
-		<div id="header"></div>
-		<!-- TITLE -->
-					<div class="container-2" id="contact">
-			<div>
-				<h1 class="special">Technical Writing Samples</h1>
-			</div>
+<body>
+	<!-- HEADER -->
+	<div id="header"></div>
+	<!-- TITLE -->
+	<div class="container-2" id="contact">
+		<div>
+			<h1 class="special">Technical Writing Samples</h1>
+		</div>
 		<!-- CONTAINER-1 -->
 		<div class="container-fluid bg-3 text-center">
 			<div class="row">
@@ -63,10 +63,10 @@
 					<p>
 						<a href="samples/ordering-process.pdf">
 							<img
-								src="assets/ordering-process-screenshot.png"
-								class="img-responsive"
-								style="width: 100%"
-								alt="Steps in the ordering process"
+							src="assets/ordering-process-screenshot.png"
+							class="img-responsive"
+							style="width: 100%"
+							alt="Steps in the ordering process"
 							/>Steps in the Ordering Process
 						</a>
 					</p>
@@ -74,73 +74,73 @@
 				<div class="col-sm-4">
 					<p>
 						<a href="samples/authentication-authorization.pdf"
-							><img
-								src="assets/auth-screenshot.png"
-								class="img-responsive"
-								style="width: 100%"
-								alt="OAuth process diagram"
-							/>Authentication and Authorization
-						</a>
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<p>
-						<a href="samples/prices-discounts.pdf"
-							><img
-								src="assets/prices-screenshot.png"
-								class="img-responsive"
-								style="width: 100%"
-								alt="Excerpt from writing sample"
-							/>Products and Discounts
-						</a>
-					</p>
-				</div>
+						><img
+						src="assets/auth-screenshot.png"
+						class="img-responsive"
+						style="width: 100%"
+						alt="OAuth process diagram"
+						/>Authentication and Authorization
+					</a>
+				</p>
 			</div>
+			<div class="col-sm-4">
+				<p>
+					<a href="samples/prices-discounts.pdf"
+					><img
+					src="assets/prices-screenshot.png"
+					class="img-responsive"
+					style="width: 100%"
+					alt="Excerpt from writing sample"
+					/>Products and Discounts
+				</a>
+			</p>
 		</div>
+	</div>
+</div>
 
-		<!-- CONTAINER-2 -->
+<!-- CONTAINER-2 -->
 
-		<div class="container-fluid bg-3 text-center">
-			<div class="row">
-				<div class="col-sm-4">
-					<p>
-						<a href="samples/Quarantinis-README.md">
-							<img
-								src="assets/quarantinis-readme.png"
-								class="img-responsive"
-								style="width: 100%"
-								alt="Screenshot of Quarantinis website"
-							/>Quarantinis README.md
-						</a>
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<p>
-						<a href="samples/documentation-plan.pdf"
-							><img
-								src="assets/doc-plan.png"
-								class="img-responsive"
-								style="width: 100%"
-								alt="Vintage farming field guides"
-							/>Digital Farming API Doc Plan
-						</a>
-					</p>
-				</div>
-				<div class="col-sm-4">
-					<p>
-						<a href="samples/rest-apis.pdf"
-							><img
-								src="assets/yaml.png"
-								class="img-responsive"
-								style="width: 100%"
-								alt="Screenshot of password generator"
-							/>What Is a REST API, Anyway?
-						</a>
-					</p>
-				</div>
-			</div>
+<div class="container-fluid bg-3 text-center">
+	<div class="row">
+		<div class="col-sm-4">
+			<p>
+				<a href="samples/Quarantinis-README.md">
+					<img
+					src="assets/quarantinis-readme.png"
+					class="img-responsive"
+					style="width: 100%"
+					alt="Screenshot of Quarantinis website"
+					/>Quarantinis README.md
+				</a>
+			</p>
 		</div>
+		<div class="col-sm-4">
+			<p>
+				<a href="samples/documentation-plan.pdf"
+				><img
+				src="assets/doc-plan.png"
+				class="img-responsive"
+				style="width: 100%"
+				alt="Vintage farming field guides"
+				/>Digital Farming API Doc Plan
+			</a>
+		</p>
+	</div>
+	<div class="col-sm-4">
+		<p>
+			<a href="samples/rest-apis.pdf"
+			><img
+			src="assets/yaml.png"
+			class="img-responsive"
+			style="width: 100%"
+			alt="Screenshot of password generator"
+			/>What Is a REST API, Anyway?
+		</a>
+	</p>
+</div>
+</div>
+</div>
 
-		<div id="footer"></div>
-	</body>
+<div id="footer"></div>
+</body>
 </html>
