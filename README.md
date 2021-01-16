@@ -1,14 +1,16 @@
-# Portfolio Project
+# Portfolio
 
 ## Description
 
-This portfolio is for Melissa Kinsey, a technical writer in St. Louis, Missouri (hey, don't blame me—I just live here). The site consists of five pages, three of which were originally built as a homework assignment for the Columbia University Engineering Full-Stack Boot Camp (October 2020-April 2021).
+Welcome to my GitHub! I'm Melissa Kinsey, a technical writer in St. Louis, Missouri (hey, don't blame me—I just live here). This site consists of five pages, three of which I originally built as a homework assignment for the Columbia University Engineering Full-Stack Boot Camp (October 2020-April 2021).
 
-\*Home ("About" page): This page was the most difficult for me. I couldn't get the page to be responsive. The page works better now, but I'll continue to work on it.
+Read on if you'd like to learn a bit about each page. Then thumb through your company's open-enrollment literature, curl up with an appliance manual, or study the ingredients list on a bottle of Mylanta. That verbiage will sound engaging by comparison.
+
+\*Home: This page was the most difficult for me. I couldn't get the page to be responsive. The page works better now, but I'll continue to work on it.
 
 \*Portfolio: In addition to tech writing, I do some hobby writing now and then for Slate and other online sites (that is, when I'm not also enrolled in a programming boot camp 20 hours a week). The Portfolio page features my Slate stories.
 
-\*GitHub: This page features some projects I've done in class. The apps are amateurish, for sure, but not bad for having built each of them in a week, right? The Quarantinis app was a group project.
+\*GitHub Projects: This page features some projects I've done in class. The apps are amateurish, for sure, but not bad for having built each of them in a week, right? The Quarantinis app was a group project.
 
 \*Tech Writing: This page features some of my tech writing samples. I'm careful not to violate any NDA I've signed, so I tried to password protect this page using a .htaccess file. It didn't work. These samples don't give away any trade secrets, though, so I think it's safe to post them publicly. (No doubt the foreign governments following my GitHub will be disappointed.)
 
