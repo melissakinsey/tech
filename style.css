@@ -1,6 +1,6 @@
 body {
 	height: 100%;
-	min-height: 1000px;
+	min-height: 1200px;
 	min-width: 400px;
 	margin-right: -10px;
 	margin-left: -10px;
@@ -151,25 +151,23 @@ div.jumbotron {
 }
 
 div.jumbotron#portfolio {
-	max-height: 250px;
 	padding-top: 3%;
 	padding-bottom: 3%;
 }
 
 p {
 	font-family: "Red Rose", cursive;
-	line-height: 1em;
+	line-height: 1.25em;
 	color: black;
 	font-size: 1rem;
 	max-width: 400px;
-	max-height: 350px;
 	align-content: center;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
 }
 
 div.jumbotron#portfolio p {
-	line-height: 1.5rem;
+	line-height: 1.25rem;
 }
 
 p#jumbotron {
@@ -177,6 +175,7 @@ p#jumbotron {
 	align-items: center;
 	margin-bottom: 0;
 }
+
 div.jumbotron {
 	font-family: "Red Rose", cursive;
 	background-color: #f8e4e4;
@@ -215,16 +214,20 @@ div.piggy {
 }
 
 img {
-	padding-top: 0.25px;
-	padding-bottom: 2rem;
 	border-radius: 35px 35px 35px 35px;
 }
 
 img.img-responsive {
-	padding: 0.25rem 0rem 0.75rem 0rem;
-	border-radius: 35px 35px 35px 35px;
 	margin-bottom: 1rem;
-	max-height: 50%;
+	border-radius: 35px 35px 35px 35px;
+}
+
+img.img-blue {
+	filter: drop-shadow(0 0 0.15rem #a0d6c3);
+}
+
+img.img-pink {
+	filter: drop-shadow(0 0 0.15rem #bc8e8e);
 }
 
 #bank {
