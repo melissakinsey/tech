@@ -1,17 +1,8 @@
-body {
-	height: 100%;
-	min-height: 1200px;
-	min-width: 400px;
-	margin-right: -10px;
-	margin-left: -10px;
-	margin-top: 0;
-	margin-bottom: 0 !important;
-	overflow: scroll;
-}
-
+/* NAVIGATION */
 #menu {
 	position: fixed;
 }
+
 .nav-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -24,59 +15,45 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .nav-item {
-	font-family: "Red Rose", cursive;
-	font-size: 24px;
-	color: #d27d7d;
+	font-size: 1rem;
 	float: left;
 	text-size-adjust: 70%;
 }
-
-ul {
-	display: flex;
-	/* align-items: flex-start; */
-	text-align: left;
-	background-color: #ffffff;
-	flex-flow: row wrap;
-}
-
-li {
-	font-family: "Red Rose", cursive;
-	float: left;
-	margin: 5 px;
-	padding-left: 5%;
-	font-size: 28px;
-	color: #d27d7d;
-	list-style: none;
-	background-color: #ffffff;
-	text-size-adjust: 70%;
-}
-
 a.nav-link-active {
 	color: #d27d7d;
 }
 
-section.row {
-	justify-content: space-evenly;
-	align-items: center;
-	margin-left: 5%;
+/* GENERAL STYLES */
+/* ~HTML~ */
+html {
+	font-size: 1rem;
+	height: 100%;
+}
+/* ~Body~ */
+body {
+	height: 100%;
+	min-height: 1300px;
+	min-width: 400px;
+	margin-right: -1rem;
+	margin-left: -1rem;
+	margin-top: 0;
+	overflow: scroll;
 }
 
-.flex-container {
-	width: 100%;
-	height: 30%;
-	padding: 0;
-	margin: 0;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+/* ~Paragraphs~ */
+p {
+	font-family: "Red Rose", cursive;
+	line-height: 1.25em;
+	color: black;
+	font-size: 1rem;
+	max-width: 400px;
+	align-content: center;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
 }
 
+/* ~Heads~ */
 h1 {
 	font-family: "Red Rose", cursive;
 	font-weight: 700;
@@ -88,7 +65,6 @@ h1 {
 	margin-top: 6%;
 	margin-left: 15%;
 }
-
 h1.special {
 	font-family: "Red Rose", cursive;
 	font-weight: 400;
@@ -101,11 +77,6 @@ h1.special {
 	display: flex;
 	margin-top: 2%;
 }
-
-#special-contact {
-	padding-top: 50px;
-}
-
 h2 {
 	font-family: "Red Rose", cursive;
 	font-weight: 300;
@@ -132,6 +103,120 @@ h3 {
 	margin: 20px 20px 20px 20px;
 }
 
+/* ~Lists~ */
+ul {
+	display: flex;
+	/* align-items: flex-start; */
+	text-align: left;
+	background-color: #ffffff;
+	flex-flow: row wrap;
+}
+li {
+	font-family: "Red Rose", cursive;
+	float: left;
+	margin: 0.15rem;
+	padding-left: 5%;
+	font-size: 28px;
+	color: #d27d7d;
+	list-style: none;
+	background-color: #ffffff;
+	text-size-adjust: 70%;
+}
+
+/* POSITIONING ELEMENTS */
+/* ~Containers~ */
+.container-fluid {
+	padding-bottom: 3rem;
+}
+.container-2 {
+	border-radius: 5px;
+	padding: 10px;
+}
+.flex-container {
+	width: 100%;
+	height: 30%;
+	padding: 0;
+	margin: 0;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+div.container.text-center#name {
+	font-size: 5rem;
+}
+.container-text-center {
+	background-color: #f8e4e4;
+}
+
+/* ~Rows~ */
+section.row {
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: 5%;
+}
+div.row {
+	margin: 0px 0px 0px 0px;
+	background-color: white;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* ~Columns~ */
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+.column label {
+	font-family: "Red Rose", cursive;
+	font-size: 24px;
+	font-weight: lighter;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+div.col-sm-3 {
+	margin-top: 1rem;
+	align-items: center;
+	padding-bottom: 0;
+}
+div.col-sm-4 {
+	padding-top: 2rem;
+}
+.col-sm-3 {
+	padding-bottom: 0;
+}
+
+/* ~IDs NOT OTHERWISE SPECIFIED~ */
+#special-contact {
+	padding-top: 50px;
+}
+#debt {
+	text-align: right;
+	margin-top: 5%;
+	margin-right: 20%;
+	margin-bottom: 10%;
+}
+#bank {
+	margin-top: 5%;
+	margin-left: 45%;
+}
+#melissa {
+	border-radius: 45px 45px 45px 45px;
+	padding: 0rem 0rem 0rem 0rem;
+	margin-right: 3rem;
+	margin-left: 3rem;
+	margin-top: 3rem;
+}
+
+/* ~Jumbotron~ */
 #jumbotron {
 	font-family: "Red Rose", cursive;
 	line-height: 1em;
@@ -140,106 +225,36 @@ h3 {
 	max-width: none;
 	max-height: none;
 }
-
-div.container.text-center#name {
-	font-size: 5rem;
-}
-
 div.jumbotron {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
+	background-color: #f8e4e4;
 }
-
-div.jumbotron#portfolio {
-	padding-top: 3%;
-	padding-bottom: 3%;
-}
-
-p {
-	font-family: "Red Rose", cursive;
-	line-height: 1.25em;
-	color: black;
-	font-size: 1rem;
-	max-width: 400px;
-	align-content: center;
-	text-align: center;
-	margin: 0px 0px 0px 0px;
-}
-
-div.jumbotron#portfolio p {
-	line-height: 1.25rem;
-}
-
 p#jumbotron {
-	font-size: 0.75rem;
-	align-items: center;
-	margin-bottom: 0;
-}
-
-div.jumbotron {
 	font-family: "Red Rose", cursive;
-	background-color: #f8e4e4;
-}
-.container-text-center {
-	background-color: #f8e4e4;
-}
-
-div.col-sm-3 {
-	margin-top: 1rem;
+	font-size: 0.75rem;
+	line-height: 1rem;
 	align-items: center;
-	padding-bottom: 0;
 }
 
-div.col-sm-4 {
-	padding-top: 2rem;
-}
-
-.col-sm-3 {
-	padding-bottom: 0;
-}
-
-div.row {
-	margin: 0px 0px 0px 0px;
-	background-color: white;
-}
-
-div.piggy {
-	min-height: 200px;
-}
-#debt {
-	text-align: right;
-	margin-top: 5%;
-	margin-right: 20%;
-	margin-bottom: 10%;
-}
-
+/* ~Images~ */
 img {
 	border-radius: 35px 35px 35px 35px;
 }
-
 img.img-responsive {
 	margin-bottom: 1rem;
 	border-radius: 35px 35px 35px 35px;
 }
-
-img.img-blue {
-	filter: drop-shadow(0 0 0.15rem #a0d6c3);
+img.shadow {
+	filter: drop-shadow(0 0 0.15rem #c6c9ca);
 }
 
-img.img-pink {
-	filter: drop-shadow(0 0 0.15rem #bc8e8e);
-}
-
-#bank {
-	margin-top: 5%;
-	margin-left: 45%;
-}
-
+/* ~Icons~ */
 i {
 	text-align: center;
 	width: 100%;
+	filter: drop-shadow(0 0.15rem #02020221);
 }
-
 i.fab {
 	font-size: 45px;
 	color: #d27d7d;
@@ -248,7 +263,6 @@ i.fab {
 	padding-left: 0%;
 	padding-right: 0%;
 }
-
 i.fas {
 	font-size: 44px;
 	color: #d27d7d;
@@ -258,31 +272,7 @@ i.fas {
 	padding-right: 0%;
 }
 
-#melissa {
-	border-radius: 45px 45px 45px 45px;
-	padding: 0rem 0rem 0rem 0rem;
-	margin-right: 3rem;
-	margin-left: 3rem;
-	margin-top: 3rem;
-}
-
-.container-2 {
-	border-radius: 5px;
-	padding: 10px;
-}
-
-.column {
-	float: left;
-	width: 50%;
-	margin-top: 6px;
-	padding: 20px;
-}
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
+/* INPUT AREAS */
 input[type="text"],
 select,
 textarea {
@@ -314,14 +304,7 @@ input[type="submit"]:hover {
 	font-weight: lighter;
 }
 
-.column label {
-	font-family: "Red Rose", cursive;
-	font-size: 24px;
-	font-weight: lighter;
-	margin-top: 2%;
-	margin-bottom: 1%;
-}
-
+/* STICKY FOOTER */
 #footer {
 	position: fixed;
 	left: 0;
@@ -338,37 +321,28 @@ input[type="submit"]:hover {
 	padding-top: 0.5rem;
 }
 
-/* Define page height and font size */
-html {
-	font-size: 1rem;
-	height: 100%;
-}
-
+/* MOBILE RESPONSIVENESS */
+/* ~Page height~ */
 @media (min-width: 768px) {
 	.bd-placeholder-img-lg {
 		font-size: 3.5rem;
 	}
 }
-
 @media (max-width: 800px) {
 	.flex-container {
 		flex-flow: row wrap;
 	}
-
-	/* Define breakpoints and font sizes */
 	@media (min-width: 640px) and (max-width: 1023px) {
 		html {
 			font-size: 1.0625rem;
 		}
 	}
-
 	@media (min-width: 1024px) and (max-width: 1279px) {
 		html {
 			font-size: 1.125rem;
 		}
 	}
-
-	/* Define max font size and viewport */
+	/* Viewport width*/
 	@media (min-width: 1280px) {
 		html {
 			font-size: 1.1875rem;
