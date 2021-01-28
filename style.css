@@ -53,10 +53,6 @@ p {
 	margin: 0px 0px 0px 0px;
 }
 
-p#address {
-	padding-top: 3rem;
-}
-
 /* ~Heads~ */
 h1 {
 	font-family: "Red Rose", cursive;
@@ -214,10 +210,14 @@ div.col-sm-4 {
 }
 #melissa {
 	border-radius: 45px 45px 45px 45px;
-	padding: 0rem 0rem 0rem 0rem;
+	padding: 3rem 3rem 3rem 3rem;
 	margin-right: 3rem;
 	margin-left: 3rem;
 	margin-top: 3rem;
+}
+
+img#melissa {
+	padding: 3rem 3rem 3rem 3rem;
 }
 
 /* ~Jumbotron~ */
