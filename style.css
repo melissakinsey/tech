@@ -53,6 +53,10 @@ p {
 	margin: 0px 0px 0px 0px;
 }
 
+p#address {
+	padding-top: 3rem;
+}
+
 /* ~Heads~ */
 h1 {
 	font-family: "Red Rose", cursive;
