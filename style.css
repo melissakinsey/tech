@@ -209,15 +209,10 @@ div.col-sm-4 {
 	margin-left: 45%;
 }
 #melissa {
-	border-radius: 45px 45px 45px 45px;
-	padding: 3rem 3rem 3rem 3rem;
 	margin-right: 3rem;
 	margin-left: 3rem;
-	margin-top: 3rem;
-}
-
-img#melissa {
-	padding: 3rem 3rem 3rem 3rem;
+	margin-bottom: 3rem;
+	border-radius: 35px 35px 35px 35px;
 }
 
 /* ~Jumbotron~ */
