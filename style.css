@@ -53,6 +53,19 @@ p {
 	margin: 0px 0px 0px 0px;
 }
 
+legend {
+	font-family: "Red Rose", cursive;
+	font-weight: 200;
+	line-height: 1em;
+	color: black;
+	font-size: 0.8rem;
+	max-width: 400px;
+	align-content: center;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	border-bottom: 0;
+}
+
 /* ~Heads~ */
 h1 {
 	font-family: "Red Rose", cursive;
