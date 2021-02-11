@@ -33,7 +33,7 @@ html {
 /* ~Body~ */
 body {
 	height: 100%;
-	min-height: 1300px;
+	min-height: 1800px;
 	min-width: 400px;
 	margin-right: -1rem;
 	margin-left: -1rem;
@@ -138,9 +138,9 @@ li {
 
 /* POSITIONING ELEMENTS */
 /* ~Containers~ */
-.container-fluid {
+/* .container-fluid {
 	padding-bottom: 3rem;
-}
+} */
 .container-2 {
 	border-radius: 5px;
 	padding: 10px;
