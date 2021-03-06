@@ -21,7 +21,7 @@
 	text-size-adjust: 70%;
 }
 a.nav-link-active {
-	color: #d27d7d;
+	color: #497666;
 }
 
 /* GENERAL STYLES */
@@ -108,7 +108,7 @@ h3 {
 	position: absolute;
 	flex-flow: row wrap;
 	height: 3rem;
-	background-color: #d27d7d;
+	background-color: #497666;
 	align-content: center;
 	width: 100%;
 	justify-content: flex-end;
@@ -130,7 +130,7 @@ li {
 	margin: 0.15rem;
 	padding-left: 5%;
 	font-size: 28px;
-	color: #d27d7d;
+	color: #497666;
 	list-style: none;
 	background-color: #ffffff;
 	text-size-adjust: 70%;
@@ -269,7 +269,7 @@ i {
 }
 i.fab {
 	font-size: 45px;
-	color: #d27d7d;
+	color: #497666;
 	padding-top: 7%;
 	padding-bottom: 5%;
 	padding-left: 0%;
@@ -277,7 +277,7 @@ i.fab {
 }
 i.fas {
 	font-size: 44px;
-	color: #d27d7d;
+	color: #497666;
 	padding-top: 7%;
 	padding-bottom: 5%;
 	padding-left: 0%;
@@ -292,15 +292,15 @@ textarea {
 	font-weight: lighter;
 	width: 100%;
 	padding: 12px;
-	border: 1px solid #fccfcf;
-	background-color: #f8e4e4;
+	border: 1px solid #cde4db;
+	background-color: #e4fdf4;
 	margin-top: 6px;
 	margin-bottom: 16px;
 	resize: vertical;
 	border-radius: 25px;
 }
 input[type="submit"] {
-	background-color: #d27d7d;
+	background-color: #497666;
 	font-family: "Red Rose", cursive;
 	font-weight: 500;
 	color: white;
@@ -311,7 +311,7 @@ input[type="submit"] {
 	border-radius: 25px;
 }
 input[type="submit"]:hover {
-	background-color: #d27d7d;
+	background-color: #497666;
 	font-family: "Red Rose", cursive;
 	font-weight: lighter;
 }
@@ -322,7 +322,7 @@ input[type="submit"]:hover {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #d27d7d;
+	background-color: #497666;
 	color: white;
 	font-family: "Red Rose", cursive;
 	font-weight: 500;
