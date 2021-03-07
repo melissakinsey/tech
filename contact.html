@@ -57,11 +57,13 @@
 		<div id="header"></div>
 		<!--BEGIN CONTAINER-1-->
 		<div class="container-fluid bg-3 text-center">
-			<div id="logo">
-				<img src="assets/name-5.png" width="40%" />
-			</div>
-			<div>
-				<h1 class="special">Contact Me</h1>
+			<div class="row">
+				<div id="logo">
+					<img src="assets/name-5.png" width="40%" />
+				</div>
+				<div>
+					<h1 class="special">Contact Me</h1>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-4">
@@ -89,21 +91,23 @@
 					<p><a href="assets/resume.pdf">Download my resume</a></p>
 				</div>
 			</div>
+		</div>
+		<div class="container-fluid bg-3 text-center">
 			<div class="row">
-				<div class="column">
+				<div class="col-sm-6">
 					<img
 						src="assets/Melissa-8x.jpg"
 						style="width: 60%"
 						id="melissa"
 						alt="Melissa Kinsey"
 					/>
-					<p id="hello">Melissa Kinsey</p>
+					<p>Melissa Kinsey</p>
 					<p>5719 Parc Ridge Way</p>
 					<p>St. Louis, MO 63139</p>
 					<p>kinsey.melissa@gmail.com</p>
 					<p>314-349-6309</p>
 				</div>
-				<div class="column">
+				<div class="col-sm-6">
 					<form action="/action_page.php">
 						<label for="fname">First Name</label>
 						<input type="text" id="fname" name="firstname" />
@@ -135,12 +139,12 @@
 							<option value="Other">Other</option>
 						</select>
 						<label for="subject">Subject</label>
-						<textarea
+						<input
+							type="text"
 							id="subject"
 							name="subject"
 							placeholder="What can I do for you?"
-						>
-						</textarea>
+						/>
 						<input type="submit" value="Submit" />
 					</form>
 				</div>

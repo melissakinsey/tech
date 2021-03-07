@@ -188,12 +188,16 @@ div.row {
 	margin-top: 6px;
 	padding: 20px;
 }
-.column label {
+label {
 	font-family: "Red Rose", cursive;
 	font-size: 24px;
 	font-weight: lighter;
 	margin-top: 2%;
 	margin-bottom: 1%;
+	max-width: 50%;
+}
+.text-center {
+	text-align: left;
 }
 div.col-sm-3 {
 	margin-top: 1rem;
@@ -290,7 +294,7 @@ select,
 textarea {
 	font-family: "Red Rose", cursive;
 	font-weight: lighter;
-	width: 100%;
+	width: 80%;
 	padding: 12px;
 	border: 1px solid #cde4db;
 	background-color: #e4fdf4;
