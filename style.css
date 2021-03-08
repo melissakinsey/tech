@@ -45,8 +45,8 @@ body {
 	height: 100%;
 	min-height: 1800px;
 	min-width: 400px;
-	overflow-x: hidden !important;
-	max-width: 100% !important;
+	overflow-x: hidden;
+	max-width: 100%;
 }
 
 /* ~Paragraphs~ */
@@ -224,9 +224,7 @@ div.col-sm-4 {
 	margin-left: 45%;
 }
 #melissa {
-	margin-right: 3rem;
-	margin-left: 3rem;
-	margin-bottom: 3rem;
+	margin: 3rem;
 	border-radius: 35px 35px 35px 35px;
 }
 
