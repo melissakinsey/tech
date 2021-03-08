@@ -1,24 +1,37 @@
 /* NAVIGATION */
 #menu {
+	display: inline-block;
 	position: fixed;
+	top: 0;
 }
 
 .nav-container {
-	display: flex;
-	flex-flow: row wrap;
+	display: inline-block;
+	width: 100%;
 	height: auto;
-	padding-top: 2%;
 	background-color: #ffffff;
 	align-items: left;
-	margin: auto;
+	position: fixed;
+	top: 0;
 }
 .nav-item {
 	font-size: 1rem;
-	float: left;
 	text-size-adjust: 70%;
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
+div#header {
+	background-color: #e4fdf4;
+}
+
 a.nav-link-active {
 	color: #52957b;
+	padding-right: 2rem;
+}
+a.nav-link-inactive {
+	color: #6d837a;
 }
 
 /* GENERAL STYLES */
@@ -32,10 +45,8 @@ body {
 	height: 100%;
 	min-height: 1800px;
 	min-width: 400px;
-	margin-right: -1rem;
-	margin-left: -1rem;
-	margin-top: 0;
-	overflow: scroll;
+	overflow-x: hidden !important;
+	max-width: 100% !important;
 }
 
 /* ~Paragraphs~ */
@@ -69,9 +80,11 @@ h1 {
 	font-weight: 700;
 	color: black;
 	font-size: 2.25rem;
-	/* padding-right: 5px;
-	padding-left: 5px; */
+	padding-right: 5px;
+	padding-left: 5px;
 	display: flex;
+	float: none;
+	top: 0;
 	margin-top: 6%;
 	margin-left: 15%;
 }
@@ -115,31 +128,12 @@ h3 {
 	margin: 20px 20px 20px 20px;
 }
 
-/* ~Lists~ */
-ul {
-	display: flex;
-	/* align-items: flex-start; */
-	text-align: left;
-	background-color: #ffffff;
-	flex-flow: row wrap;
+/* POSITIONING ELEMENTS
+~Containers~ */
+.logo-container {
+	margin: 0;
+	padding: 0;
 }
-li {
-	font-family: "Red Rose", cursive;
-	float: left;
-	margin: 0.15rem;
-	padding-left: 5%;
-	font-size: 28px;
-	color: #52957b;
-	list-style: none;
-	background-color: #ffffff;
-	text-size-adjust: 70%;
-}
-
-/* POSITIONING ELEMENTS */
-/* ~Containers~ */
-/* .container-fluid {
-	padding-bottom: 3rem;
-} */
 .container-1 {
 	border-radius: 5px;
 	padding: 10px;
@@ -157,6 +151,10 @@ li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	/* align-self: flex-start;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0; */
 }
 /* .container-2 {
 	text-align: center;
@@ -338,7 +336,38 @@ input[type="submit"]:hover {
 }
 
 #logo {
-	padding-top: 4vh;
+	padding-top: 8vh;
+}
+
+/* ~Lists~ */
+/* ul {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	background-color: #e4fdf4;
+	font-family: "Red Rose", cursive;
+	padding: 3% 0% 0% 4%;
+	font-size: 28px;
+	color: #52957b;
+	text-size-adjust: 70%;
+} */
+
+li {
+	display: inline-block;
+	position: fixed;
+	top: 0;
+	text-align: left;
+	width: 100%;
+	background-color: #e4fdf4;
+	font-family: "Red Rose", cursive;
+	padding-top: 1%;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	padding-right: 0%;
+	font-size: 28px;
+	color: #52957b;
+	text-size-adjust: 70%;
+	/* list-style: none; */
 }
 
 /* MOBILE RESPONSIVENESS */
