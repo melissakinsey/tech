@@ -158,10 +158,10 @@ h3 {
 }
 /* .container-2 {
 	text-align: center;
+}*/
+.text-center {
+	margin-top: 5%;
 }
-.container-text-center {
-	background-color: #e4fdf4;
-} */
 
 /* ~Rows~ */
 section.row {
@@ -192,7 +192,15 @@ label {
 	font-weight: lighter;
 	margin-top: 2%;
 	margin-bottom: 1%;
+	margin-left: 0;
+	margin-right: 2rem;
+	float: left;
 	max-width: 50%;
+}
+span {
+	display: block;
+	overflow: hidden;
+	text-align: left;
 }
 .text-center {
 	text-align: center;
@@ -284,7 +292,10 @@ i.fas {
 	padding-right: 0%;
 }
 
-/* INPUT AREAS */
+/* INPUT AREAS*/
+form {
+	margin: 3rem;
+}
 input[type="text"],
 select,
 textarea {
@@ -316,6 +327,16 @@ input[type="submit"]:hover {
 	font-weight: lighter;
 }
 
+/*CONTACT ME ELEMENTS*/
+form {
+	margin: 3rem;
+}
+.address {
+	display: inline-block;
+	text-align: center;
+	font-family: "Red Rose", cursive;
+	color: #6c837a;
+}
 /* STICKY FOOTER */
 #footer {
 	position: fixed;
