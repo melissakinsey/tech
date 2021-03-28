@@ -1,8 +1,18 @@
 <div id="header" class="nav-container">
-	<li class="nav-item">
-		<a class="nav-link-active" href="index.html">Portfolio</a>
-		<a class="nav-link-active" href="github.html">GitHub Projects</a>
-		<a class="nav-link-active" href="tech.html">Tech Writing</a>
-		<a class="nav-link-active" href="contact.html">Contact</a>
-	</li>
+	<li>
+		<a class="link" href="index.html">Portfolio</a>
+		<a class="link" href="github.html">GitHub Projects</a>
+		<a class="link" href="tech.html">Tech Writing</a>
+		<a class="link" href="contact.html">Contact</a>
+	</ul>
 </div>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script>
+	$(function () {
+		$("a").each(function () {
+			if ($(this).prop("href") == window.location.href) {
+				$(this).addClass("active");
+			}
+		});
+	});
+</script>

@@ -1,9 +1,4 @@
 /* NAVIGATION */
-#menu {
-	display: inline-block;
-	position: fixed;
-	top: 0;
-}
 
 .nav-container {
 	display: inline-block;
@@ -25,13 +20,21 @@
 div#header {
 	background-color: #e4fdf4;
 }
-
-a.nav-link-active {
-	color: #52957b;
+a:link {
+	color: #57947b;
 	padding-right: 2rem;
 }
-a.nav-link-inactive {
-	color: #6d837a;
+a:visited {
+	color: #57947b;
+	padding-right: 2rem;
+}
+a:hover {
+	color: #73c5a3;
+	padding-right: 2rem;
+}
+a:active {
+	color: #9eb3ab;
+	padding-right: 2rem;
 }
 
 /* GENERAL STYLES */
@@ -40,6 +43,7 @@ html {
 	font-size: 1rem;
 	height: 100%;
 }
+
 /* ~Body~ */
 body {
 	height: 100%;
@@ -130,9 +134,10 @@ h3 {
 
 /* POSITIONING ELEMENTS
 ~Containers~ */
-.logo-container {
+#logo-container {
 	margin: 0;
-	padding: 0;
+	padding: 3%;
+	background-color: #ffffff;
 }
 .container-1 {
 	border-radius: 5px;
@@ -142,7 +147,7 @@ h3 {
 .flex-container {
 	width: 100%;
 	height: 30%;
-	padding: 0;
+	padding: 10px;
 	margin: 0;
 	display: -webkit-box;
 	display: -moz-box;
@@ -168,6 +173,7 @@ section.row {
 	justify-content: space-evenly;
 	/* align-items: center; */
 	margin-left: 5%;
+	background-color: #ffffff;
 }
 div.row {
 	margin: 0px 0px 0px 0px;
@@ -205,6 +211,11 @@ span {
 .text-center {
 	text-align: center;
 }
+div.col-sm-2 {
+	margin-top: 1rem;
+	align-items: center;
+	padding-bottom: 0;
+}
 div.col-sm-3 {
 	margin-top: 1rem;
 	align-items: center;
@@ -218,43 +229,33 @@ div.col-sm-4 {
 }
 
 /* ~IDs NOT OTHERWISE SPECIFIED~ */
-#special-contact {
-	padding-top: 50px;
-}
-#debt {
-	text-align: right;
-	margin-top: 5%;
-	margin-right: 20%;
-	margin-bottom: 10%;
-}
-#bank {
-	margin-top: 5%;
-	margin-left: 45%;
-}
+
 #melissa {
-	margin: 3rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	align-items: center;
 	border-radius: 35px 35px 35px 35px;
 }
 
 /* ~Jumbotron~ */
-#jumbotron {
-	font-family: "Red Rose", cursive;
-	line-height: 1em;
-	color: black;
-	font-size: 24px;
-	max-width: none;
-	max-height: none;
-}
-div.jumbotron {
+.jumbotron {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	background-color: #e4fdf4;
-}
-p#jumbotron {
 	font-family: "Red Rose", cursive;
 	font-size: 0.75rem;
+	color: black;
 	line-height: 1rem;
+	text-align: center;
+	max-width: none;
+	max-height: none;
 	align-items: center;
+}
+p#jumbotron {
+	font-weight: lighter;
+	margin: 0 auto;
+	padding-bottom: 1rem;
+	max-width: 800px;
 }
 
 /* ~Images~ */
