@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous"
+		></script>
+		<script>
+			$(function () {
+				$("#header").load("header.html");
+				$("#footer").load("footer.html");
+			});
+		</script>
+		<!--Title-->
+		<title>Infographics</title>
+		<!--Encoding-->
+		<meta charset="UTF-8" />
+		<!--Metatext-->
+		<meta name="Portfolio" />
+		<!--SEO Keywords-->
+		<meta
+			name="keywords"
+			content="portfolio, Amazon, Alexa, technical-writing, programming, engineering"
+		/>
+		<!--Author-->
+		<meta name="author" content="Melissa Kinsey" />
+		<!--Favicon-->
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			img
+			src="images/favicon.png"
+		/>
+		<!--Viewport Dimensions-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!--Bootstrap Link-->
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!--CSS Link-->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- NAV HEADER -->
+		<div id="header" class="p-0"></div>
+		<!-- CONTAINER-1 -->
+		<div class="container-fluid bg-3 text-center logo-container">
+			<div id="logo">
+				<img src="assets/name-5.png" width="40%" />
+			</div>
+			<div>
+				<h1 class="special">Infographics</h1>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<p>
+						<img
+							src="AMZN-agent-workflow.png"
+							class="shadow img-responsive"
+							style="width: 100%"
+							alt="Infographic showing the agent SDK workflow"
+							/>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!--FOOTER-->
+		<div id="footer"></div>
+	</body>
+	<!--JQuery SCRIPTS-->
+</html>
