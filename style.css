@@ -211,6 +211,12 @@ span {
 .text-center {
 	text-align: center;
 }
+div.col-full {
+	width:max-content;
+	margin-top: 1rem;
+	align-items: center;
+	padding-bottom: 0;
+}
 div.col-sm-2 {
 	margin-top: 1rem;
 	align-items: center;
