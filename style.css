@@ -5,7 +5,7 @@
 	width: 100%;
 	height: auto;
 	background-color: #ffffff;
-	align-items: left;
+	justify-content: center;
 	position: fixed;
 	top: 0;
 }
@@ -60,7 +60,7 @@ p {
 	color: black;
 	font-size: 1rem;
 	max-width: 400px;
-	align-content: center;
+	justify-content: center;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
 }
@@ -72,7 +72,7 @@ legend {
 	color: black;
 	font-size: 0.8rem;
 	max-width: 400px;
-	align-content: center;
+	justify-content: center;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
 	border-bottom: 0;
@@ -125,7 +125,7 @@ h3 {
 	flex-flow: row wrap;
 	height: 3rem;
 	background-color: #52957b;
-	align-content: center;
+	justify-content: center;
 	width: 100%;
 	justify-content: flex-end;
 	padding-right: 10px;
@@ -178,6 +178,7 @@ section.row {
 div.row {
 	margin: 0px 0px 0px 0px;
 	background-color: white;
+	justify-content: center;
 }
 .row:after {
 	content: "";
@@ -206,15 +207,14 @@ label {
 span {
 	display: block;
 	overflow: hidden;
-	text-align: left;
+	justify-content: center;
 }
 .text-center {
 	text-align: center;
 }
 div.col-full {
-	width:max-content;
 	margin-top: 1rem;
-	align-items: center;
+	justify-content: center;
 	padding-bottom: 0;
 }
 div.col-sm-2 {
@@ -255,7 +255,7 @@ div.col-sm-4 {
 	text-align: center;
 	max-width: none;
 	max-height: none;
-	align-items: center;
+	justify-content: center;
 }
 p#jumbotron {
 	font-weight: lighter;
