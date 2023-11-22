@@ -77,6 +77,21 @@ legend {
 	margin: 0px 0px 60px 0px;
 	border-bottom: 0;
 }
+div.legend-bar {
+	font-family: "Red Rose", cursive;
+	font-weight: 200;
+	line-height: 1.5em;
+	width: 100vw;
+	color: #57947b;
+	margin: 0;
+	background-color: #e4fdf4;
+	font-size: 1rem;
+	justify-content: left;
+	text-align: left;
+	margin: 10px 0px 0px 0px;
+	padding-left: 2rem;
+	border-bottom: 0;
+}
 
 /* ~Heads~ */
 h1 {
@@ -214,6 +229,7 @@ span {
 }
 div.col-full {
 	margin-top: 1rem;
+	margin-left: 2rem;
 	justify-content: center;
 	padding-bottom: 0;
 }
@@ -240,7 +256,7 @@ div.col-sm-4 {
 	margin-top: 3rem;
 	margin-bottom: 1rem;
 	align-items: center;
-	border-radius: 35px 35px 35px 35px;
+	border-radius: 15px 15px 15px 15px;
 }
 
 /* ~Jumbotron~ */
@@ -266,11 +282,11 @@ p#jumbotron {
 
 /* ~Images~ */
 img {
-	border-radius: 35px 35px 35px 35px;
+	border-radius: 15px 15px 15px 15px;
 }
 img.img-responsive {
 	margin-bottom: 1rem;
-	border-radius: 35px 35px 35px 35px;
+	border-radius: 15px 15px 15px 15px;
 }
 img.shadow {
 	filter: drop-shadow(0 0 0.15rem #c6c9ca);
