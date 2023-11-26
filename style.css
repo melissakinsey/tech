@@ -4,7 +4,7 @@
 	display: inline-block;
 	width: 100%;
 	height: auto;
-	background-color: #ffffff;
+	background-color: #e4fdf4;
 	justify-content: center;
 	position: fixed;
 	top: 0;
@@ -152,7 +152,7 @@ h3 {
 #logo-container {
 	margin: 0;
 	padding: 3%;
-	background-color: #ffffff;
+	background-color: #e4fdf4;
 }
 .container-1 {
 	border-radius: 5px;
@@ -176,9 +176,11 @@ h3 {
 	position: sticky;
 	top: 0; */
 }
-/* .container-2 {
+.container-2 {
 	text-align: center;
-}*/
+	background-color: #e4fdf4
+}
+
 .text-center {
 	margin-top: 5%;
 }
