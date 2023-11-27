@@ -13,25 +13,20 @@
 			});
 		</script>
 		<!--Title-->
-		<title>Logos</title>
+		<title>Logo Design</title>
+		<!--Favicon-->
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 		<!--Encoding-->
 		<meta charset="UTF-8" />
 		<!--Metatext-->
-		<meta name="Logos" />
+		<meta name="Portfolio" />
 		<!--SEO Keywords-->
 		<meta
 			name="keywords"
-			content="portfolio, photoshop, adobe creative suite, images, logos, coding-boot-camp, technical-writing, programming, engineering"
+			content="portfolio, coding-boot-camp, technical-writing, documentation, programming, engineering, slate"
 		/>
 		<!--Author-->
 		<meta name="author" content="Melissa Kinsey" />
-		<!--Favicon-->
-		<link
-			rel="shortcut icon"
-			type="image/png"
-			img
-			src="images/favicon.png"
-		/>
 		<!--Viewport Dimensions-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!--Bootstrap Link-->
@@ -39,6 +34,7 @@
 			rel="stylesheet"
 			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 		/>
+		<!-- Google Fonts Link -->
 		<link
 			href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap"
 			rel="stylesheet"
@@ -50,15 +46,18 @@
 		<!--NAV HEADER-->
 		<div id="header"></div>
 		<!--BEGIN CONTAINER-1-->
-		<div class="jumbotron">
-			<img id="melissa" src="assets/name-5.png" width="40%" />
-			<p id="jumbotron">
+		<div class="container-1">
+			<div class="jumbotron">
+				<div class="container text-center">
+					<img src="assets/name-5.png" width="50%" />
+					<p id="jumbotron">
 				Writers are often called on to beautify UIs or do other design
-				work. I used Photoshop and Illustrator to create the logos
-				below.
-			</p>
+                work. I used Photoshop and Illustrator to create the logos
+                below.</p>
+				</div>
+			</div>
 		</div>
-		<div id="logo-container">
+	<div class="container-fluid bg-3 text-center">
 			<h1 class="special">Logo Design</h1>
 			<div class="row">
 				<div class="col-sm-2">
@@ -184,8 +183,39 @@
 					</p>
 				</div>
 			</div>
-		</div>
-
+				<div class="row">
+					<div class="col-sm-2">
+						<p>
+							<img
+								src="logos/boot-camp-logo.png"
+								class="shadow img-responsive"
+								style="width: 200px"
+								alt="Logo for coding boot camp alumni network"
+							/>
+						</p>
+					</div>
+						<div class="col-sm-2">
+							<p>
+								<img
+									src="logos/Alexa-Conversations-logo.png"
+									class="shadow img-responsive"
+									style="width: 200px"
+									alt="Logo for Amazon Alexa Conversations internal Confluence page."
+								/>
+							</p>
+						</div>
+						<div class="col-sm-2">
+							<p>
+								<img
+									src="logos/grammbulance-logo.png"
+									class="shadow img-responsive"
+									style="width: 200px"
+									alt="Logo for Grammar Medics Slack group."
+								/>
+							</p>
+						</div>
+					</div>
+				</div>
 		<!--FOOTER-->
 		<div id="footer"></div>
 	</body>
