@@ -22,6 +22,4 @@ Read on to learn about each page.
 
 Credit is due to our fabulous Columbia University Boot Camp instructor, teaching assistants, and staff, and to our amazing little "We Got This!" study group (#study-group-1")!
 
-## License (This makes it official)
-
 Copyright (c) 2020, Melissa Kinsey
